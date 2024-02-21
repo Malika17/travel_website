@@ -112,7 +112,7 @@ main {
 
   z-index: 1;
 }
-.fog-7 {
+.fog-1 {
   position: absolute;
   width: 1900px;
   top: calc(50% - 100px);
@@ -267,7 +267,7 @@ main {
   width: 100%;
   pointer-events: none;
 }
-.fog-1 {
+.fog-7 {
   position: absolute;
   z-index: 21;
   width: 1600px;
