@@ -32,11 +32,11 @@ window.addEventListener("mousemove", (e) => {
   update(e.clientX);
 });
 
-if (window.innerWidth >= 725) {
-  main.style.maxHeight = `${window.innerWidth * 0.9}px`;
-} else {
-  main.style.maxHeight = `${window.innerWidth * 0.9}px`;
-}
+// if (window.innerWidth >= 725) {
+//   main.style.maxHeight = `${window.innerWidth * 0.9}px`;
+// } else {
+//   main.style.maxHeight = `${window.innerWidth * 0.9}px`;
+// }
 
 let timeline = gsap.timeline();
 

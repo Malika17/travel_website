@@ -27,7 +27,7 @@ header {
 
 header nav {
   /* background-color: #353; */
-  max-width: 1750px;
+  max-width: 2000px;
   margin: 0px auto;
   padding: 10 25rem;
   display: flex;
@@ -98,6 +98,7 @@ main {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  max-height: 1200px;
 }
 .parallax {
   pointer-events: none;
@@ -289,9 +290,10 @@ main {
   pointer-events: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
   .text h1 {
     font-size: 5.8rem;
+    padding: 0 5rem;
   }
   .text h2 {
     font-size: 4.7rem;
